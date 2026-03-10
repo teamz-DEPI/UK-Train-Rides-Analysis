@@ -100,3 +100,29 @@ Each row represents **a single passenger ticket purchase**.
 ---
 
 ## 📂 Project Structure
+
+```bash
+UK-Train-Rides-Analysis
+│
+├── data
+│   └── railway.csv
+│
+├── notebooks
+│   └── data_analysis.ipynb
+│
+├── dashboard
+│   └── powerbi_dashboard.pbix
+│
+├── images
+│   └── dashboard.png
+│
+└── README.md
+```
+
+### File Explanation
+
+- **data/** → Contains the dataset used for analysis  
+- **notebooks/** → Contains the Jupyter Notebook used for data analysis  
+- **dashboard/** → Contains the Power BI dashboard file  
+- **images/** → Contains project images and dashboard screenshots  
+- **README.md** → Documentation describing the project
