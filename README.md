@@ -1,167 +1,199 @@
-# 🚆 UK Train Rides Data Analysis
+# 🚆 UK Train Rides Analysis
 
-![Dashboard](A_modern_data_analytics_scene_showing_uk_train_tra_delpmaspu.png)
+### Passenger Behavior, Revenue Performance & Train Delay Insights
 
----
-
-# 📊 Project Overview
-
-The **UK Train Rides Analysis** project explores railway ticket transactions across the United Kingdom.  
-The goal of this analysis is to understand **passenger behavior, ticket purchasing patterns, journey delays, and refund requests**.
-
-The dataset contains **31,653 train ticket transactions** with detailed information about journeys, ticket types, payments, and delay reasons.
-
-This project demonstrates practical data analysis skills including:
-
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Dashboard Development
-- Generating Business Insights
+![Project Dashboard](A_modern_data_analytics_scene_showing_uk_train_tra_delpmaspu.png)
 
 ---
 
-# 📂 Project Files
+# 👥 Project Team
 
-You can find the full project files here:
-
-🔗 https://drive.google.com/drive/folders/1jviADDHE7zOon8ig8M8K1t1dOOIXSyoE?usp=sharing
-
----
-
-# 👥 Team
-
-| Name | Role |
-|-----|-----|
-| Dina Ezzat | Instructor |
-| Mohamed Omar | Data Analysis |
+| Name          | Role          |
+| ------------- | ------------- |
+| Dina Ezzat    | Instructor    |
+| Mohamed Omar  | Data Analysis |
 | Kerols Raafat | Data Analysis |
-| Joseph Milad | Data Analysis |
+| Joseph Milad  | Data Analysis |
 | Yahya Ebrahim | Data Analysis |
-| Ahmed Reda | Data Analysis |
+| Ahmed Reda    | Data Analysis |
 | Ahmed Elsayed | Data Analysis |
+
+---
+
+# 📌 Project Description
+
+This project analyzes **UK railway ticket sales and journey performance** to uncover valuable insights related to **passenger behavior, ticket revenue, and train operational efficiency**.
+
+The dataset contains detailed information about railway journeys, including:
+
+* Ticket purchase details
+* Departure and arrival stations
+* Travel times
+* Ticket types and ticket classes
+* Payment methods
+* Journey status
+* Delays and refund requests
+
+The main objective of this project is to apply **data analysis techniques** to:
+
+* Understand travel demand patterns
+* Evaluate revenue distribution
+* Analyze train delay patterns
+* Assess overall railway service performance
+
+The project includes multiple stages:
+
+* **Data Cleaning**
+* **Exploratory Data Analysis (EDA)**
+* **KPI Calculation**
+* **Data Visualization**
+
+Through these steps, the analysis highlights key insights about **passenger trends, operational delays, and ticket revenue performance**.
+
+The final results are presented through **visualizations and an interactive dashboard**, providing a clear **data-driven overview of railway operations and passenger travel patterns**.
+
+---
+
+# ✨ Project Features
+
+* Data Cleaning and preprocessing
+* Handling missing values and duplicate records
+* Exploratory Data Analysis (EDA)
+* Passenger demand analysis across stations and routes
+* Train delay analysis and operational performance evaluation
+* Ticket sales and revenue analysis
+* Customer purchase behavior analysis
+* Data visualization and dashboard creation
 
 ---
 
 # 📂 Dataset Description
 
-The dataset contains **18 columns** representing train ticket transactions and journey details.  
-Each row in the dataset represents **one train ticket purchase made by a passenger**.
+The dataset contains information about **train journeys and ticket transactions**.
 
-The data helps analyze passenger behavior, journey delays, ticket pricing, and refund patterns.
+Each row represents **a single passenger ticket purchase**.
 
-### Dataset Columns Explanation
+## Dataset Columns Explanation
 
-| Column | Description |
-|------|-------------|
-| Transaction ID | A unique identifier assigned to each ticket transaction. |
-| Date of Purchase | The date when the passenger purchased the ticket. |
-| Time of Purchase | The exact time when the ticket was purchased. |
-| Purchase Type | Indicates whether the ticket was purchased **online or at a train station**. |
-| Payment Method | The payment method used such as **Credit Card, Debit Card, or Contactless payment**. |
-| Railcard | A discount card used by passengers to receive reduced ticket prices. |
-| Ticket Class | Travel class such as **Standard Class or First Class**. |
-| Ticket Type | Type of ticket purchased such as **Single or Return ticket**. |
-| Price | The amount paid by the passenger for the ticket. |
-| Departure Station | The train station where the journey begins. |
-| Arrival Destination | The final destination station. |
-| Date of Journey | The date when the journey takes place. |
-| Departure Time | Scheduled departure time of the train. |
-| Arrival Time | Scheduled arrival time of the train. |
-| Actual Arrival Time | The actual arrival time recorded. |
-| Journey Status | Indicates whether the train was **On Time, Delayed, or Cancelled**. |
-| Reason for Delay | The reason behind delays such as **Weather, Technical Issues, or Staff Shortage**. |
-| Refund Request | Indicates whether the passenger requested a refund. |
-
----
-
-# 🛠 Tools Used
-
-The following tools and technologies were used during the analysis process:
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-- Power BI / Excel for dashboard visualization
-
-These tools helped in cleaning the data, analyzing patterns, and visualizing insights.
+| Column              | Description                                                       |
+| ------------------- | ----------------------------------------------------------------- |
+| Transaction ID      | Unique identifier assigned to each ticket purchase                |
+| Date of Purchase    | Date when the passenger purchased the ticket                      |
+| Time of Purchase    | Time when the ticket purchase occurred                            |
+| Purchase Type       | Indicates whether the ticket was purchased online or at a station |
+| Payment Method      | Method used to pay for the ticket                                 |
+| Railcard            | Discount card used for reduced ticket prices                      |
+| Ticket Class        | Travel class such as Standard or First Class                      |
+| Ticket Type         | Type of ticket such as Single or Return                           |
+| Price               | Ticket price paid by the passenger                                |
+| Departure Station   | Station where the journey begins                                  |
+| Arrival Destination | Destination station                                               |
+| Date of Journey     | The date when the journey takes place                             |
+| Departure Time      | Scheduled train departure time                                    |
+| Arrival Time        | Scheduled train arrival time                                      |
+| Actual Arrival Time | Actual arrival time of the train                                  |
+| Journey Status      | On Time, Delayed, or Cancelled                                    |
+| Reason for Delay    | Reason for delay such as weather or technical issues              |
+| Refund Request      | Indicates whether the passenger requested a refund                |
 
 ---
 
-# 🔎 Data Analysis Steps
+# 🛠 Tools & Technologies Used
 
-The project follows a structured data analysis workflow:
+* **Python**
+* **Pandas** – Data manipulation and cleaning
+* **NumPy** – Numerical computations
+* **Matplotlib** – Data visualization
+* **Seaborn** – Statistical visualization
+* **Jupyter Notebook** – Development environment
+* **Power BI** – Interactive dashboard creation
 
-### 1️⃣ Data Loading
-Importing the dataset into Python environment.
-
-### 2️⃣ Data Cleaning
-Handling inconsistent values and preparing the dataset for analysis.
-
-### 3️⃣ Handling Missing Values
-Identifying and treating missing data.
-
-### 4️⃣ Removing Duplicates
-Ensuring that each transaction appears only once.
-
-### 5️⃣ Exploratory Data Analysis (EDA)
-Exploring patterns, trends, and relationships within the dataset.
-
-### 6️⃣ Data Visualization
-Creating charts and graphs to illustrate insights clearly.
-
-### 7️⃣ Dashboard Creation
-Building an interactive dashboard to summarize the most important insights.
+These tools were used for **data processing, analysis, and visualization**.
 
 ---
 
-# 📈 Key Performance Indicators (KPIs)
+# 📊 Key Performance Indicators (KPIs)
 
-The analysis focuses on several important performance indicators:
+The project focuses on measuring several important KPIs:
 
-- 🎫 Total Ticket Sales
-- 💰 Average Ticket Price
-- 🚆 Most Popular Routes
-- ⏱ Percentage of Delayed Journeys
-- 🔁 Refund Request Rate
-- 🎟 Ticket Class Distribution
+* **Total Revenue**
+  Total revenue generated from ticket sales.
 
-These KPIs help evaluate **railway performance and customer behavior**.
+* **Total Passengers**
+  Total number of passengers.
 
----
+* **Average Ticket Price**
+  Average cost of tickets purchased.
 
-# 📊 Example Analysis Questions
+* **Delay Rate**
+  Percentage of journeys that experienced delays.
 
-This project answers several analytical questions such as:
+* **On-Time Performance**
+  Percentage of trains arriving on schedule.
 
-- Which **stations have the highest passenger traffic**?
-- What are the most common **ticket types purchased**?
-- Which **payment methods are most frequently used**?
-- What percentage of journeys are **delayed**?
-- What are the **main reasons for train delays**?
-- How often do passengers **request refunds**?
+* **Refund Requests**
+  Number of refund requests due to delays or cancellations.
 
 ---
 
-# 📊 Dashboard
+# 📂 Project Structure
 
-The dashboard provides a visual summary of the analysis including:
+```bash
+UK-Train-Rides-Analysis
+│
+├── data
+│   └── railway.csv
+│
+├── notebooks
+│   └── data_analysis.ipynb
+│
+├── dashboard
+│   └── powerbi_dashboard.pbix
+│
+├── images
+│   └── dashboard.png
+│
+└── README.md
+```
 
-- Ticket sales distribution
-- Journey status breakdown
-- Delay reasons analysis
-- Most popular routes
-- Ticket class comparison
+## File Explanation
 
-The dashboard helps transform raw data into **clear visual insights**.
+* **data/** → Contains the dataset used for analysis
+* **notebooks/** → Contains the Jupyter Notebook used for data analysis
+* **dashboard/** → Contains the Power BI dashboard file
+* **images/** → Contains project images and dashboard screenshots
+* **README.md** → Project documentation
+
+This structure keeps the project **organized and easy to understand**.
 
 ---
 
-# 🚀 How to Run the Project
+# 💻 How to Clone the Repository
 
-To reproduce the analysis on your machine follow these steps.
+Clone the repository using Git:
 
-### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/teamelmolok44-rgb/UK-Train-Rides-Analysis.git
+```
+
+Then navigate to the project folder:
+
+```bash
+cd UK-Train-Rides-Analysis
+```
+
+---
+
+# ▶️ How to Run the Project
+
+Open the Jupyter Notebook to run the analysis.
+
+```bash
+jupyter notebook
+```
+
+Then open the notebook file:
+
+```bash
+notebooks/data_analysis.ipynb
+```
