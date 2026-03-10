@@ -21,7 +21,6 @@ This project analyzes **UK railway ticket sales and journey performance** to unc
 
 | Name          | Role          |
 | ------------- | ------------- |
-| Dina Ezzat    | Instructor    |
 | Mohamed Omar  | Data Analysis |
 | Kerols Raafat | Data Analysis |
 | Joseph Milad  | Data Analysis |
@@ -31,16 +30,6 @@ This project analyzes **UK railway ticket sales and journey performance** to unc
 
 ---
 
-# Team Members
-
-1. Mohamed Omar
-2. Kerols Raafat
-3. Joseph Milad
-4. Yahya Ebrahim
-5. Ahmed Reda
-6. Ahmed Elsayed
-
----
 
 # 📌 Project Description
 
