@@ -126,3 +126,42 @@ UK-Train-Rides-Analysis
 - **dashboard/** → Contains the Power BI dashboard file  
 - **images/** → Contains project images and dashboard screenshots  
 - **README.md** → Documentation describing the project
+## 💻 How to Clone the Repository
+
+Clone the repository using Git:
+
+```bash
+git clone https://github.com/teamelmolok44-rgb/UK-Train-Rides-Analysis.git
+```
+
+Then navigate to the project folder:
+
+```bash
+cd UK-Train-Rides-Analysis
+```
+
+---
+
+## ⚙️ Installation
+
+Install the required Python libraries before running the project:
+
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+---
+
+## ▶️ How to Run the Project
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open the analysis notebook:
+
+```bash
+notebooks/data_analysis.ipynb
+```
